@@ -1,6 +1,6 @@
 # OCAML-mooc
-my solutions to the Université Paris Diderot OCAML mooc
-Tee course is run by the above University at https://www.fun-mooc.fr
+My solutions to the Université Paris Diderot OCAML mooc
+The course is run by the above University at https://www.fun-mooc.fr
 
 And this is the second year it has run. For the second year I have failed to complete it 
 for family reasons.
