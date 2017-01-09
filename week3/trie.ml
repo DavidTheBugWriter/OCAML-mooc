@@ -114,18 +114,7 @@ let trie3 = Trie (Some 5, []) ;;
 let trie4 = Trie (Some 6, []) ;;
 let char2ch3 = [('i', trie1);('j', trie2)] ;;
 let char2ch4 = [('i', trie1);('j', trie2); ('K', trie3); ('l', trie4)] ;;
-
-
-WRONG!:
-let rec update_children m c t =
-    match t with
-    | Trie (None, []) ->
-        [(c, t)]
-    | Trie (Some n, [(c', t');tail]) when c' = c -> 
-        [(c, t);tail]
-    | Trie (_, l) -> 
-        update_children (l@[(c,t)]) c t
-        ;;  
+ 
 *)
 
 let rec update_children m c t =
